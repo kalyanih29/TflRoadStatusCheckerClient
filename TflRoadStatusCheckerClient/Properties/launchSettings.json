@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TflRoadStatusCheckerClient": {
+      "commandName": "Project"
+    },
+    "WSL 2": {
+      "commandName": "Executable"
+    }
+  }
+}
