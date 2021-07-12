@@ -21,14 +21,14 @@ Change the highlighted values shown below with your own keys:
 [![keys-change.png](https://i.postimg.cc/fLK3fcj1/keys-change.png)](https://postimg.cc/DJSy2bNc)
 
 2. Right click the solution and build the solution.
-This should display in the output window of Visual Studio that the build is successful.
+The output window of Visual Studio should confirm that the build is successful.
 
 
 o	**Run the output**
 
 1. Open the Windows Powershell Command tool
-2. Browse to you projects ".\bin\[configuration]\net5.0" where it can be release or debug configuration
-3. Copy the above path and execute the following commands like below:
+2. Browse to you projects ".\bin\[configuration]\net5.0" where it can be a release or debug configuration
+3. Copy the above path and execute the following commands as mentioned below:
  cd C:\Kalyani\Documents\Personal\Profile\RoadStatusCheckerClient\TflRoadStatusCheckerClient\TflRoadStatusCheckerClient\bin\Debug\net5.0
  & .\TflRoadStatusCheckerClient.exe A2
 4. The sample commands are as shown below:
@@ -36,12 +36,11 @@ o	**Run the output**
 
 o	**Run the tests written**
 
-In Visual Studio, under the project: TflRoadStatusCheckerClient.Tests, there is a test class called 'TflRoadStatusCheckerApiServiceTest'
-Under the Test Explorer options-> Run All the tests or within the mentioned class for each test right click the [Test] keyword and choose to Run
+In Visual Studio, open the project folder and locate: TflRoadStatusCheckerClient.Tests, which includes a test class called 'TflRoadStatusCheckerApiServiceTest'. Now open the Test Explorer options and Run All the tests or within the mentioned class for each test, right-click the [Test] keyword and click Run.
 
 o	**Assumptions**
 
-1. Windows machine
-2. Tfl API is available and the keys provided are correct- Incase, of the wrong keys the program is able to handle this scenario
+1. User will be using a Windows machine
+2. Tfl API is available and the keys provided are correct- In case of the wrong keys, the program will provide the relevant message
 
 
